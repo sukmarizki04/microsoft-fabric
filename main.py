@@ -9,3 +9,10 @@ else:
 primes = [2, 3, 5, 7]
 for prime in primes:
     print(prime)
+class ParentClass:
+    def printTest(self):
+        print_self("Testing")
+
+class ChildClass(ParentClass):
+    def print_self(self):
+        print("Child")
