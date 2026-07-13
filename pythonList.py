@@ -53,18 +53,18 @@ li2
 ['butter']
 
 ## OMITTING INDEX 
-aaA[:4]
-['spam', 'egg', 'bacon', 'tomato']
-aaA[0:4]
-['spam', 'egg', 'bacon', 'tomato']
-aaA[2:]
-['bacon', 'tomato', 'ham', 'lobster']
-aaA[2:len(a)]
-['bacon', 'tomato', 'ham', 'lobster']
-aaA
-['spam', 'egg', 'bacon', 'tomato', 'ham', 'lobster']
-aaA[:]
-['spam', 'egg', 'bacon', 'tomato', 'ham', 'lobster']
+# aaA[:4]
+# ['spam', 'egg', 'bacon', 'tomato']
+# aaA[0:4]
+# ['spam', 'egg', 'bacon', 'tomato']
+# aaA[2:]
+# ['bacon', 'tomato', 'ham', 'lobster']
+# aaA[2:len(a)]
+# ['bacon', 'tomato', 'ham', 'lobster']
+# aaA
+# ['spam', 'egg', 'bacon', 'tomato', 'ham', 'lobster']
+# aaA[:]
+# ['spam', 'egg', 'bacon', 'tomato', 'ham', 'lobster']
 
 # Acces List in python 
 liA = ['a', 'b', 'c', 'd']
@@ -76,3 +76,8 @@ liA[4]
 ## With Stride 
 deretList = ['spam', 'egg', 'bacon', 'tomato', 'ham','lobster']
 deretList[0:6:3]
+
+#concatenating 
+odd = [1,3,5]
+odd.extend([9,1,6])
+print(odd)
