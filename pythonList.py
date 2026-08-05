@@ -81,3 +81,10 @@ deretList[0:6:3]
 odd = [1,3,5]
 odd.extend([9,1,6])
 print(odd)
+
+
+#Sort and Reverge 
+ListA = [3,1,3,2,5]
+ListA.sort()
+print(list)
+ListA.reverse()
