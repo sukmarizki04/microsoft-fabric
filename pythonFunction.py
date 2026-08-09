@@ -16,3 +16,20 @@ print("=== Keywords Arguments ===")
 def keywords_args(**kwargs):
     return kwargs
 keywords_args(big="foot", loch = "ness")
+
+print(" Returning multiple ")
+def swap(x,y):
+    return x,y
+x = 1
+y = 2
+x,y = swap(x,y)
+print("====Default Value===")
+def add1(x, y= 10):
+    return x + y
+add1(10)
+add1(5, 10)
+print(add1(10,30))
+
+print("=== Anonymous Function====")
+print((lambda x : x > 2)(3))
+print((lambda x,y : x ** 2 + y ** 2)(2,1))
