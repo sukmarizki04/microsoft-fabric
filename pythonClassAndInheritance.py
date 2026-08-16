@@ -85,4 +85,4 @@ yoki = Dog("Yoki", 5)
 print(yoki.name)
 print(yoki.legs)
 yoki.sound
-        
+
